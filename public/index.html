@@ -8,13 +8,61 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-3xl font-bold font-gemunu text-tblue">
-            Hello world!
-          </h1>
+  <!-- header section -->
+  <header class="bg-black py-6 lg:py-12 text-tgray uppercase">
+    <!-- header container -->
+    <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+      <!-- logo -->
+      <a href="" class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-tgray text-transparent bg-gradient-to-r from-tpurple to-tgray bg-clip-text">Z-TECH</a>
+      <!-- mobile menü -->
+<div class="block md:hidden pr-4">
+  <div class="space-y-1 cursor-pointer">
+  <div class="w-8 h-1 bg-tgray rounded-full"></div>
+  <div class="w-8 h-1 bg-tgray rounded-full"></div>
+  <div class="w-8 h-1 bg-tgray rounded-full"></div>
+</div>
+</div>
+
+
+      <!-- navigation -->
+      <nav class="hidden md:flex justify-between flex-1">
+        <!-- menü -->
+        <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
+          <a href="" class="hover:text-tpurple transition duration-300">anasayfa</a>
+          <a href="" class="hover:text-tpurple transition duration-300">hakkımızda</a>
+          <a href="" class="hover:text-tpurple transition duration-300">hİzmetlerİmİz</a>
+          <a href="" class="hover:text-tpurple transition duration-300">İletİşİm</a>
+        </div>
+        <!-- login area -->
+        <div class="flex items-center space-x-4 lg:space-x-8">
+          <!-- search area -->
+          <form action="">
+            <div class="group border-r border-tpurple px-4 mx-4 py-1">
+              <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-tpurple focus:outline-none w-24 lg:w-44 transition duration-300">
+              <button class="-ml-4 group-hover:ml-0 transition duration-300"><i class="fas fa-search group-hover:text-tpurple transition duration-300"></i> </button>
+            </div>
+          </form>
+          <!-- signUp area -->
+          <div class="flex items-center space-x-4 lg:space-x-8 text-lg">
+            <a href="#">Login</a>
+            <a href="#" class="bg-tpurple px-3 py-1 hover:bg-rose-700 text-tgray cursor-pointer transition duration-300 whitespace-nowrap">sign up</a>
+
+          </div>
+
+        </div>
+      </nav>
     </div>
+  </header>
+<!-- slide seciton -->
+  <section class="h-128 group relative">
+    <!-- slide image -->
+    <img src="images/1.jpg" alt="" class="h-full w-full">
+
+  </section>
 
 </body>
 </html>

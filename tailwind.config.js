@@ -5,6 +5,12 @@ module.exports = {
     //tüm container ler için default özellikler
     container:{
       center:true,
+      screens:{
+        lg:'1140px',
+        xl:'1140px',
+        '2xl':'1140px',
+
+      }
     },
     extend: {
       //kendi kullanmak istediğimiz fontlar
@@ -13,10 +19,15 @@ module.exports = {
         open:['Open Sans', 'sans-serif']
       },
       colors:{
-        'tgray':'#444353',
-        'tblue':'#00aaf6'
+        'tgray':'#B0B0B0',
+        'tpurple':'#660033'
+      },
+      spacing:{
+        /*h-96 ya kadardır o yüzden daha fazlası için tanımlama yaparız */
+      128:'32rem', //512px
       }
     },
+   
   },
   plugins: [],
 }
